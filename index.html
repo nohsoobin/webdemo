@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webdemo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 메뉴영역 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="About.html">About</a>
+          </li>
+          <li>
+            <a href="Contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="project.html">Project</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 메인섹션 -->
+    <section class="main">
+      <div class="container">
+        <h1>Web programing</h1>
+        <h3>
+          웹 개발자를 위한 온라인 메뉴얼::
+          <a href="https://www.w3schools.com/">w3schools</a>
+          <a href="https://developer.mozilla.org/ko/">Mozilla</a>
+        </h3>
+
+        <p>
+          웹프로그래밍의 3가지 요소::
+          <a href="https://www.w3schools.com/html/default.asp">HTML</a>
+          <a href="https://www.w3schools.com/css/default.asp">CSS</a>
+          <a href="https://www.w3schools.com/js/default.asp">JavaScript</a>
+        </p>
+
+        <p>현재시간: <span id="time"></span></p>
+        <hr />
+
+        <p>
+          배경색 바꾸기::
+          <button onclick="pink()">Pink</button>
+          <button onclick="LightBlue()">Light Blue</button>
+          <button onclick="Yellow()">Yellow</button>
+          <button onclick="Reset()">Reset</button>
+        </p>
+
+        <p>
+          배워봅시다::
+          <button onmouseover="showhtml()">HTML5</button>
+          <button onmouseover="showcss()">CSS</button>
+          <button onmouseover="showjs()">JavaScript</button>
+        </p>
+
+        <hr />
+        <div><img id="fig" height="200px"</div>
+      </div>
+      <p id="desc"></p>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
