@@ -80,3 +80,9 @@ button:hover {
   color: red;
   background-color: azure;
 }
+
+#time {
+  background-color: #f8a28f;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
